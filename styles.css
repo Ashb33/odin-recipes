@@ -1,15 +1,20 @@
+/* General Styles */
 * {
   background-color:gainsboro;
   color:saddlebrown;
-  line-height: 1.5;
+  font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  font-size: 100%;
+  line-height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 10px;
 }
 
-.container {
+body {
   text-align: center;
+  width: 100%;
   margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
-  width: 750px;
 }
 
 img {
@@ -18,30 +23,35 @@ img {
   opacity: 90%;
 }
 
-h2,
-ul,
-ol {
-  margin-bottom: 0px;
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin-bottom: 0;
+}
+
+p,
+li {
+  font-size: 1.25em;
 }
 
 ul,
 ol {
   display: inline-block;
   text-align: left;
-  margin-top: 5px;
 }
 
-li {
-  margin-bottom: 10px;
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.description {
-  margin-top: 5px;
-}
-
+/* Main Menu Styles */
 .menu {
   list-style-type: none;
-  margin-top: 30px;
 }
 
 .menu img {
@@ -54,5 +64,5 @@ li {
   display:inline-block;
   vertical-align: text-top;
   width: 150px;
-  margin-left: 50px;
+  padding: 15px;
 }
