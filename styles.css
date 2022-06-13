@@ -1,0 +1,21 @@
+* {
+  background-color: antiquewhite;
+  color:saddlebrown;
+}
+
+.container {
+  text-align: center;
+  margin-top: 50px;
+  width: 750px;
+}
+
+img {
+  width: 500px;
+  border-radius: 20px;
+}
+
+ul,
+ol {
+  display: inline-block;
+  text-align: left;
+}
