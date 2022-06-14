@@ -1,13 +1,7 @@
-/* General Styles */
+/* General Layout*/
 * {
-  background-color:gainsboro;
-  color:saddlebrown;
-  font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
-  font-size: 100%;
   box-sizing: border-box;
-  /*line-height: 150%;*/
-  /*margin-top: 0;*/
-  /*margin-bottom: 10px;*/
+  background-color:gainsboro;
 }
 
 .container {
@@ -17,15 +11,45 @@
   padding-right: 20px;
 }
 
-
 img {
   border-radius: 20px;
   opacity: 90%;
 }
 
+/* Typography */
+
+* {
+  font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
+  font-size: 100%;
+  color:saddlebrown;
+  /*line-height: 150%;*/
+}
+
+h1,
+h2,
+h3,
+h5,
+p {
+  margin-bottom: 20px;
+}
+
 footer {
   font-size: 0.7em;
 }
+
+
+/* Main Menu */
+
+.welcome {
+  padding: 20px 80px 50px;
+}
+
+/* Recipe Pages */
+
+
+
+
+
 
 /*
 body {
@@ -59,11 +83,6 @@ ol {
   text-align: left;
 }
 
-.container {
-  width: 600px;
-  margin-left: auto;
-  margin-right: auto;
-}
 */
 
 /* Main Menu Styles */
