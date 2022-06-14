@@ -4,11 +4,30 @@
   color:saddlebrown;
   font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
   font-size: 100%;
-  line-height: 1.5em;
-  margin-top: 0;
-  margin-bottom: 10px;
+  box-sizing: border-box;
+  /*line-height: 150%;*/
+  /*margin-top: 0;*/
+  /*margin-bottom: 10px;*/
 }
 
+.container {
+  width: 960px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+img {
+  border-radius: 20px;
+  opacity: 90%;
+}
+
+footer {
+  font-size: 0.7em;
+}
+
+/*
 body {
   text-align: center;
   width: 100%;
@@ -17,11 +36,7 @@ body {
   margin-right: auto;
 }
 
-img {
-  width: 500px;
-  border-radius: 20px;
-  opacity: 90%;
-}
+
 
 h1 {
   font-size: 3em;
@@ -31,6 +46,7 @@ h2 {
   font-size: 2em;
   margin-bottom: 0;
 }
+
 
 p,
 li {
@@ -48,8 +64,10 @@ ol {
   margin-left: auto;
   margin-right: auto;
 }
+*/
 
 /* Main Menu Styles */
+/*
 .menu {
   list-style-type: none;
 }
@@ -66,3 +84,4 @@ ol {
   width: 155px;
   padding: 15px;
 }
+*/
