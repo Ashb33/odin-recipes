@@ -26,7 +26,14 @@ img {
   font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
   font-size: 100%;
   color:saddlebrown;
+  font-weight: 400;
   line-height: 150%;
+}
+
+.title,
+.welcome,
+footer {
+  text-align: center;
 }
 
 h1,
@@ -37,8 +44,24 @@ p {
   margin-bottom: 20px;
 }
 
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 1.25em;
+}
+
 footer {
-  font-size: 0.7em;
+  font-size: 0.9em;
 }
 
 /* Header */
@@ -86,12 +109,3 @@ footer {
   padding-left: 10px;
   padding-right: 10px;
 }
-
-/*
-.menu img {
-  width: 150px;
-  height: 200px;
-  
-}
-
-*/
