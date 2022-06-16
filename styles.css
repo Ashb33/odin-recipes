@@ -1,6 +1,8 @@
 /* General Layout*/
 * {
   box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 body {
@@ -10,7 +12,7 @@ body {
 .container,
 .col-container {
   width: 960px;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 .container {
@@ -19,7 +21,7 @@ body {
 }
 
 img {
-  border-radius: 20px;
+  border-radius: 15px;
   opacity: 90%;
 }
 
@@ -39,17 +41,15 @@ footer {
   text-align: center;
 }
 
-h1,
-h2,
 h3,
 h5,
-p {
+p,
+li {
   margin-bottom: 10px;
 }
 
 h1 {
   font-size: 3em;
-  margin-bottom: 0;
   line-height: 1;
 }
 
@@ -59,7 +59,6 @@ h2 {
 
 h3 {
   font-size: 1.75em;
-  margin-top: 0;
 }
 
 h5,
@@ -68,32 +67,38 @@ p {
   font-size: 1.25em;
 }
 
-.banner {
-  color: #624139;
+.banner,h5 {
+  font-variant: small-caps;
 }
 
 footer {
   font-size: 0.9em;
 }
 
+.banner {
+  color: #624139;
+}
+
 /* Header */
 
 header {
-  padding: 50px 0 20px;
+  padding: 50px 0 10px;
   background-color: #c5bcb5;
 }
 
 /* Footer */
 
-footer {
+footer.container {
   padding: 30px 0;
   background-color: #c5bcb5;
+  margin-bottom: 0;
 }
 
 /* Main Menu */
 
 .welcome {
   padding: 20px 80px 50px;
+  margin-top: 50px;
 }
 
 .menu-thumb {
@@ -122,8 +127,4 @@ footer {
 .col-2 {
   padding-left: 10px;
   padding-right: 10px;
-}
-
-.recipe-thumb {
-  vertical-align: middle;
 }
