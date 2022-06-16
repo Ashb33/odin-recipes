@@ -11,7 +11,7 @@ body {
 
 .container,
 .col-container {
-  width: 960px;
+  max-width: 100%;
   margin: 0 auto 50px;
 }
 
@@ -21,6 +21,7 @@ body {
 }
 
 img {
+  max-width: 100%;
   border-radius: 15px;
   opacity: 90%;
 }
@@ -37,6 +38,7 @@ img {
 
 .title,
 .welcome,
+.col-container,
 footer {
   text-align: center;
 }
@@ -121,11 +123,12 @@ footer.container {
 
 /* Recipe Pages */
 .col-1 {
-  width: 33%;
+  max-width: 33%;
 }
 
 .col-2 {
-  width: 66%;
+  max-width: 66%;
+  text-align: left;
 }
 
 .col-1,
