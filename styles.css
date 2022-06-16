@@ -1,6 +1,9 @@
 /* General Layout*/
 * {
   box-sizing: border-box;
+}
+
+body {
   background-color:gainsboro;
 }
 
@@ -25,7 +28,7 @@ img {
 * {
   font-family: Baskerville, 'Baskerville Old Face', Garamond, 'Times New Roman', serif;
   font-size: 100%;
-  color:saddlebrown;
+  color: #624139;
   font-weight: 400;
   line-height: 150%;
 }
@@ -41,11 +44,13 @@ h2,
 h3,
 h5,
 p {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
+  margin-bottom: 0;
+  line-height: 1;
 }
 
 h2 {
@@ -54,10 +59,17 @@ h2 {
 
 h3 {
   font-size: 1.75em;
+  margin-top: 0;
 }
 
-h5 {
+h5,
+li,
+p {
   font-size: 1.25em;
+}
+
+.banner {
+  color: #624139;
 }
 
 footer {
@@ -68,12 +80,14 @@ footer {
 
 header {
   padding: 50px 0 20px;
+  background-color: #c5bcb5;
 }
 
 /* Footer */
 
 footer {
   padding: 30px 0;
+  background-color: #c5bcb5;
 }
 
 /* Main Menu */
@@ -108,4 +122,8 @@ footer {
 .col-2 {
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.recipe-thumb {
+  vertical-align: middle;
 }
